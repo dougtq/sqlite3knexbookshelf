@@ -1,0 +1,17 @@
+{
+  "name": "contacts-bookshelf",
+  "version": "0.0.1",
+  "description": "A contacts manager using Bookshelf.js",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "knex": "knex --knexfile ./knexfile.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "bookshelf": "^0.10.4",
+    "express": "^4.15.4",
+    "knex": "^0.13.0",
+    "sqlite3": "^3.1.11"
+  }
+}
